@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanokpat</title>
+</head>
+<body bgcolor="pink">
+<br>
+    <center><h1>Welcome to kanokpat's homepange</h1></center>
+
+    <p id="test"></p>
+    <script>
+window.alert("Welcome to my website");
+ document.getElementById("test").innerHTML = 4+5; 
+console.log(4+15);
+
+var age=22
+var lastname="Kanokpat"
+var cars=["Toyota","BMW","Honda"];
+var me={firstname:"Kanokpat",lastname:"Phomphet"};
+window.alert(JSON.stringify(me))
+alert(age)
+alert( lastname)
+alert( cars)
+console.log(me);
+
+
+function myFunction1(a,b)
+        {
+            x=a*b;
+            alert("ผลลัพธ์ของ a*b=" + x);
+        }
+
+        function myFunction(name1,name2)
+        {
+            alert("Welcome" + name1 + " , คุณ " + name2);
+        }
+
+
+        //
+        // if else condition
+        a=1;
+        if(a==1){
+        alert("a มีค่าเท่ากับ 1");}
+
+        //
+        // if else condition
+        a=0;
+        if(a==1){
+        alert("a มีค่าเท่ากับ 1");}
+        else{
+        alert("a มีค่าไม่เท่ากับ 1");}
+
+        //
+        // else if condition
+        a=0
+        if(a==2){
+        alert("a มีค่าเท่ากับ 2");}
+        else if (a==2){
+        alert("a มีค่าเท่ากับ 2");}
+        else{
+        alert("a มีค่าไม่เท่ากับ 2");}
+ 
+
+    </script>
+
+<button onclick="this.innerHTML=Date()">Date</button>
+
+<button onclick="myFunction('ฟา','กนกพชร')">ต้อนรับ</button>
+
+<button onclick="myFunction1(8,10)">click me</button>
+ 
+
+
+
+</body>
+</html>
